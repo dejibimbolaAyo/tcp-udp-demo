@@ -1,0 +1,17 @@
+{
+  "name": "networking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tcp": "nodemon tcp.js",
+    "udp": "nodemon udp.js",
+    "client": "nodemon udp_client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
